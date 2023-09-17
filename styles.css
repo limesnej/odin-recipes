@@ -1,9 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
+html {
+    box-sizing: border-box;
 }
 
 body{
+    display:block;
     margin: 0;
     background: linear-gradient(70deg, #BBE1FA 0 20%, #3282B8 20% 40%, #0F4C75 40% 60%,#1B262C 60% 80%, #FFFFFF 80% 100%);
     text-align: center;
@@ -13,6 +13,7 @@ body{
 }
 
 
+
 .image{
     width: 400px;
     height: auto;
@@ -20,6 +21,7 @@ body{
 
 p{
     font-size: 14px;
+    margin: 8px;
 }
 
 .unordered,
@@ -28,9 +30,16 @@ ol {
 }
 
 h3 {
-    color:antiquewhite;
+    color: #FF9912;
     font-weight: bold;
     font-size: 25px;
+}
+
+li{
+    padding: 8px;
+}
+li a:hover{
+    color:#FF9912;
 }
 .button{
     background-color: #1B262C;
@@ -44,6 +53,10 @@ h3 {
 }
 .button:active {
     background-color: #FF9912;
+}
+.button:hover {
+    background-color: #FF9912;
+    color:#BBE1FA;
 }
 
 
